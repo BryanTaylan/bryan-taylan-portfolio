@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Shoperize",
+    "imageSrc": "projects/shoperizeimage.png",
+    "description": "AI-powered Shopify app that automates product background replacement using GPT-4 Vision and DALL-E 3, reducing editing time from hours to minutes with custom prompt generation.",
+    "skills": ["Remix", "React", "Python", "Flask", "OpenAI API", "Shopify API"],
+    "demo": "",
+    "source": "https://github.com/BryanTaylan/shoperize"
+  },
+  {
+    "title": "Venue View",
+    "imageSrc": "projects/venueviewimage.png",
+    "description": "Full-stack concert preview app with interactive seat maps and Ticketmaster integration. Features user authentication, real-time event data, and dynamic seating visualization.",
+    "skills": ["React", "Flask", "TypeScript", "Tailwind CSS", "SQLite", "Ticketmaster API"],
+    "demo": "",
+    "source": "https://github.com/BryanTaylan/venue-view"
+  },
+  {
+    "title": "Gym Tracker",
+    "imageSrc": "projects/gymtrack.jpg",
+    "description": "Full-stack fitness tracking application with user authentication and workout logging. Built with persistent data storage for exercises, sets, and reps tracking.",
+    "skills": ["React", "Node.js", "JavaScript", "Authentication"],
+    "demo": "",
+    "source": "https://github.com/BryanTaylan/gym-tracker"
+  }
+  ]

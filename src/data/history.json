@@ -1,0 +1,39 @@
+[
+    {
+      "role": "Software Developer Intern",
+      "organisation": "NextGen Software",
+      "startDate": "May, 2025",
+      "endDate": "Aug, 2025",
+      "experiences": [
+        "Built React Native components for HeyNay app admin interface",
+        "Collaborated on UI/UX design and styling",
+        "Implemented Nest.js backend services with S3 integration",
+        "Assisted with DynamoDB development"
+      ],
+      "imageSrc": "history/nextlogowhite (1).png"
+    },
+    {
+      "role": "Software Developer Intern",
+      "organisation": "NextGen Software",
+      "startDate": "Jun, 2023",
+      "endDate": "Aug, 2023",
+      "experiences": [
+        "Modernized UI of Tier 25 app using React",
+        "Improved SEO and responsiveness of company homepage",
+        "Optimized code and components for better performance"
+      ],
+      "imageSrc": "history/nextlogowhite (1).png"
+    },
+    {
+      "role": "President, Math Club",
+      "organisation": "Palm Beach State College",
+      "startDate": "May, 2024",
+      "endDate": "Jul, 2024",
+      "experiences": [
+        "Led weekly workshops and competitions",
+        "Managed club budget and event planning",
+        "Increased active membership by 25%"
+      ],
+      "imageSrc": "history/pbsc.png"
+    }
+  ]

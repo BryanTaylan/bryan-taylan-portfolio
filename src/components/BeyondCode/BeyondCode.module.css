@@ -1,0 +1,53 @@
+@import "../../vars.css";
+
+.container {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 15px;
+  padding: 73px;
+  margin-top: 129px;
+  z-index: 10;
+  margin-left: 10%;
+  margin-right: 10%;
+  backdrop-filter: blur(10px);
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.description {
+  color: var(--color-text);
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: 400;
+  margin: 0;
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    background-color: transparent;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 80px;
+  }
+  
+  .title {
+    font-size: 28px;
+  }
+  
+  .description {
+    font-size: 16px;
+  }
+}

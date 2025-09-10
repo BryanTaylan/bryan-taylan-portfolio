@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/btlogowhite.png" />
+    <style>
+      link[rel="icon"] {
+        width: 16px !important;
+        height: 16px !important;
+      }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Resume</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script>
+      // Function to update favicon based on theme
+      function updateFavicon() {
+        const favicon = document.querySelector('link[rel="icon"]');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        
+        if (prefersDark) {
+          favicon.href = '/btlogowhite.png';
+        } else {
+          favicon.href = '/btlogoblack.png';
+        }
+      }
+      
+      // Update favicon on page load
+      updateFavicon();
+      
+      // Listen for theme changes
+      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateFavicon);
+    </script>
+  </body>
+</html>
