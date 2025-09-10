@@ -125,4 +125,14 @@
     width: 100%;
     gap: 9px;
   }
+
+  .historyItem {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .historyItem img {
+    width: 60px;
+    margin-bottom: 15px;
+  }
 }
