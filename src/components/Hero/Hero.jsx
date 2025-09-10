@@ -8,9 +8,10 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={`${styles.title} hero-title`}>Hello, I'm Bryan</h1>
         <p className={`${styles.description} hero-description`}>
-          I'm a UCF Computer Engineering student who enjoys solving complex problems
-          through code. I'm passionate about web development and always excited
-          to learn new technologies while building meaningful projects.
+          I'm a UCF Computer Engineering student who enjoys solving complex
+          problems through code. I'm passionate about software development and
+          always excited to learn new technologies while building meaningful
+          projects.
         </p>
         <a
           href="/assets/BryanTaylanResume1.pdf"
@@ -33,9 +34,9 @@ export const Hero = () => {
           enableTilt={true}
           enableMobileTilt={false}
           onContactClick={() => {
-            const contactSection = document.getElementById('contact');
+            const contactSection = document.getElementById("contact");
             if (contactSection) {
-              contactSection.scrollIntoView({ behavior: 'smooth' });
+              contactSection.scrollIntoView({ behavior: "smooth" });
             }
           }}
         />
