@@ -14,7 +14,7 @@ export const Hero = () => {
           projects.
         </p>
         <a
-          href="/assets/BryanTaylanResume1.pdf"
+          href="/resume.html"
           target="_blank"
           className={`${styles.contactBtn} hero-button`}
         >

@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/btlogowhite.png" />
+    <style>
+      link[rel="icon"] {
+        width: 16px !important;
+        height: 16px !important;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        background: #000;
+        font-family: Arial, sans-serif;
+      }
+      .container {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+      .header {
+        background: #000;
+        color: white;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #333;
+      }
+      .back-button {
+        background: #007acc;
+        color: white;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 4px;
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 14px;
+      }
+      .back-button:hover {
+        background: #005a9e;
+      }
+      .pdf-container {
+        flex: 1;
+        background: #000;
+      }
+      iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+      }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bryan Taylan - Resume</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1 style="margin: 0; font-size: 18px;">Bryan Taylan - Resume</h1>
+        <a href="/" class="back-button">← Back to Portfolio</a>
+      </div>
+      <div class="pdf-container">
+        <iframe src="/assets/BryanTaylanResume1.pdf" type="application/pdf"></iframe>
+      </div>
+    </div>
+    <script>
+      // Function to update favicon based on theme
+      function updateFavicon() {
+        const favicon = document.querySelector('link[rel="icon"]');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        
+        if (prefersDark) {
+          favicon.href = '/btlogowhite.png';
+        } else {
+          favicon.href = '/btlogoblack.png';
+        }
+      }
+      
+      // Update favicon on page load
+      updateFavicon();
+      
+      // Listen for theme changes
+      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateFavicon);
+    </script>
+  </body>
+</html>
